@@ -85,18 +85,17 @@ function rand(max, min){
 
 function mainGame(){
     // 判定
-    var complete = 1;
-    for(var i = 0; i < 33; i++){
-        complete = 1;
+    for(var i = 0; i <= 32; i++){
+        var complete = 1;
         for(var j = 2; j <= 12; j++){
             if(map[j][i] == 0){
                 complete = 0;
                 break;
-            }                
+            }
         }
         if(complete){
             score += 1;
-            document.getElementById("test").textContent = "Your score = " + score;
+            document.getElementById("score-number").textContent = score;
             for(j = 2; j <= 12; j++){
                 map[j][i] = 0;
             }
