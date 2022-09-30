@@ -99,8 +99,7 @@ function mainGame(){
             for(j = 2; j <= 12; j++){
                 map[j][i] = 0;
             }
-            repaint();
-            for(j = i; j >= 0; j--){
+            for(j = i; j >= 1; j--){
                 for(var k = 2; k <= 12; k++){
                     map[k][j] = map[k][j-1];
                     map[k][j-1] = 0;
