@@ -8,5 +8,4 @@ Open `index.html` on your browser
 
 # TODO
 - Add BGM and SE
-- Add style sheet
-- Fix program to Object Oriented
+- Refactor `script.js`
