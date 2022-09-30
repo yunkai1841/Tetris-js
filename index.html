@@ -4,13 +4,11 @@
         <meta charset="utf-8">
         <title>Tetris</title>
         <script src="script.js"></script>
-        <style>
-            #test{color: black}
-        </style>
+        <link rel="stylesheet" href="style.css"></link>
     </head>
     <body onload="init()">
         <canvas id="canvas" width="300" height="600"></canvas>
-        <p id="score">Score: <span>1</span></p>
+        <p id="score">Score: <span id="score-number">1</span></p>
         <button id="rotate" onclick="rotate()">rotate</button>
         <button id="down" onclick="down()">down</button>
         <button id="left" onclick="left()">left</button>
