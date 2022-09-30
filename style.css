@@ -1,0 +1,22 @@
+#canvas{
+    display: block;
+}
+#score{
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    margin: 0;
+    font-size: 100px;
+    display: inline-block;
+}
+button{
+    position: absolute;
+    top: 130px;
+    height: 200px;
+    width: 100px;
+    left: 320px;
+}
+#rotate{left: 320px;}
+#down{left: 430px;}
+#left{left: 540px;}
+#right{left: 650px;}
